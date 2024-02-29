@@ -1,0 +1,1374 @@
+body {
+    width: 100.5%;
+    height: 3000px;
+    margin-left: -0.5%;
+}
+
+.boshqismirangi {
+    background-color: #e5e5e5;
+    width: 100.5%;
+    height: 1000px;
+    margin-top: -0.5%;
+    margin-left: -0.5%;
+}
+
+.ustidagirang {
+    width: 100%;
+    background-color: white;
+    height: 650px;
+}
+
+
+.ustidagirang img {
+    width: 1035px;
+    height: 650px;
+    margin-left: 300px;
+    margin-top: 110px;
+    border-radius: 20px;
+    z-index: 3;
+    position: absolute;
+    transition: all 2s ease 0s;
+    opacity: 1;
+    animation-name: box-mover;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+
+
+@keyframes box-mover {
+    0% {
+        width: 50px;
+        height: 650px;
+        margin-left: 150%;
+        margin-top: 110px;
+        border-radius: 20px;
+        z-index: 3;
+        position: absolute;
+        opacity: 0;
+        
+        ;
+    }
+    100% {
+        width: 1035px;
+        height: 650px;
+        margin-left: 300px;
+        margin-top: 110px;
+        border-radius: 20px;
+        z-index: 3;
+        position: absolute;
+        transition: all 2s ease 0s;
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+.rasmniorqasidagiranf {
+    width: 500px;
+    height: 405px;
+    background-color: #f67a37;
+    position: absolute;
+    z-index: 1;
+    margin-left: 185px;
+    margin-top: 460px;
+    border-radius: 20px;
+    transition: all 3s ease 0s;
+    opacity: 1;
+    animation-name: box-mover2;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+
+
+
+
+
+@keyframes box-mover2 {
+    0% {
+        width: 500px;
+        height: 405px;
+        background-color: #f67a37;
+        position: absolute;
+        z-index: 1;
+        margin-top: 460px;
+        margin-left: 0px;
+        border-radius: 20px;
+        opacity: 0;
+    }
+    100% {
+        width: 500px;
+        height: 405px;
+        background-color: #f67a37;
+        position: absolute;
+        z-index: 1;
+        margin-left:185px;
+        margin-top: 460px;
+        border-radius: 20px;
+        transition: all 3s ease 0s;
+        opacity: 1;
+    }
+}
+
+
+
+
+.qutiichidatext {
+    width: 770px;
+    height: 460px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 7;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 700px;
+    transition: all 3s ease 0s;
+    opacity: 1;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-name: box-mover3;
+}
+
+
+
+
+@keyframes box-mover3 {
+    0% {
+        width: 770px;
+        height: 460px;
+        background-color: white;
+        border-radius: 20px;
+        z-index: 5;
+        position: absolute;
+        margin-left: 500px;
+        margin-top: 800px;
+        opacity: 0;
+    }
+    100% {
+        width: 770px;
+        height: 460px;
+        background-color: white;
+        border-radius: 20px;
+        z-index: 7;
+        position: absolute;
+        margin-left: 500px;
+        margin-top: 700px;
+        transition: all 3s ease 0s;
+        opacity: 1;
+    }
+}
+
+
+.boshjoytashlash {
+    width: 100%;
+    height: 680px;
+    background-color: #e5e5e5;
+}
+
+
+
+
+.qutiichidatext h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-left: 35px;
+    margin-top: 50px;
+}
+
+
+
+.qutiichidatext p {
+    font-size: 20px;
+    margin-left: 35px;
+    margin-top: -10px;
+    color: #535353;
+}
+
+
+.qutiichidatext a {
+    color: #535353;
+}
+
+.button-style {
+    width: 240px;
+    height: 60px;
+    margin-left: 35px;
+    margin-top: -10px;
+    border-radius: 30px;
+    background-color: #f67a37;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.4s ease 0s;
+}
+
+.button-style:hover {
+    background: linear-gradient(to right, rgb(19, 69, 230) 0%, rgb(237, 35, 159)51%, rgb(19, 69, 230) 100%) ;
+
+}
+
+.услуги h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: -350px;
+    text-align: center;
+    height: 1100px;
+}
+
+
+.ikinchiqismi1 {
+    margin-top: -800px;
+}
+
+
+
+
+.koring {
+    position: absolute;
+    width: 270px;
+    height: 400px;
+    background-color: white;
+    display: inline-block;
+    margin-top: -150px;
+    margin-left: 302px;
+    box-shadow: 0px 1px 1px 0px rgba(108, 100, 133, 0.808);
+    z-index: 2;
+}
+
+.koringhover {
+    margin-top: -60px;
+}
+
+.koring h4 {
+    color: #33353f;
+    font-size: 20px;
+}
+
+.koring p {
+    color: #2d2f36;
+    height: 10px;
+    font-size: 23px;
+}
+
+.border {
+    background-color: #ff214f;
+    color: white;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    margin-left: 100px;
+    margin-top: 30px;
+    transition: all 0.4s ease 0s;
+
+}
+
+.koring:hover .border  {
+    background-color: #0a25d3;
+    transform: rotate(360deg);
+
+}
+
+.border i{
+    border-radius: 50%;
+}
+
+.koring1 i {
+    margin-top: 25px;
+}
+
+.koring1 {
+    margin-left: 190px;
+}
+
+.koring2 {
+    margin-left: 490px;
+}
+
+.koring2 i {
+    margin-top: 25px;
+}
+
+.koring3 {
+    margin-left: 790px;
+}
+
+.koring3 i {
+    margin-top: 25px;
+}
+
+.koring4 {
+    margin-left: 1090px;
+}
+
+.koring4 i {
+    margin-top: 25px;
+    transition: all 0.4s ease 0s;
+}
+
+.koring  {
+    text-align: center;
+    vertical-align: middle;
+    transition: all 0.4s ease 0s;
+    border-radius: 10px;
+}
+
+.koring:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 15px 25px rgb(5 54 77 / 15%);
+    margin-top: -200px;
+
+}
+
+.koringhover:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 15px 25px rgb(5 54 77 / 15%);
+    margin-top: -130px;
+}
+
+
+.koring:hover .iconkauchun{
+    background-color: #0a25d3;
+    color: #ff214f;
+    transform: rotate(360deg);
+}
+
+
+
+.koring:hover i{
+    color: #c00cc3;
+}
+
+
+.kompuyuter-rasm {
+    width: 101%;
+    background-color: #f0eeef;
+    margin-left: -0.5%;
+    margin-top: 300px;
+}
+
+.kompuyuter-rasm img {
+    width: 750px;
+    display: inline-block;
+}
+
+.joytashlash {
+    height: 35px;
+}
+
+
+.loremipsun1 {
+    background-color: #f2f2f2;
+    width: 443px;
+    height: 280px;
+    display: inline-block;
+    margin-top: 65px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.loremipsun1 p, h3 {
+    margin-left: 20px;
+    margin-top: px;
+}
+
+.loremipsun1 p {
+    font-size: 15px;
+}
+
+.loremipsun1red {
+    color: red;
+}
+
+.loremipsun1 h3 {
+    font-size: 20px;
+    height: 40px;
+}
+
+.astyle:hover {
+    color: #f67a37;
+}
+
+.astyle {
+    text-decoration: none;
+    font-weight: bold;
+    color: #111111;
+    border-bottom: 1px solid #f67a37;
+    padding-bottom: 2px;
+}
+
+
+
+.katashiriftliyozu h1 {
+    font-size: 60px;
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 480px;
+    font-weight: bold;
+    margin-top: 500px;
+}
+
+.katashiriftliyozu h1:hover {
+    font-size: 70px;
+    margin-left: 465px;
+    color: rgb(26, 90, 77);
+
+}
+
+
+.bitajoyga-box {
+    display: inline-block;
+    margin-top: 630px;
+    position: absolute;
+    margin-left: 340px;
+}
+
+
+
+.text-razimer p {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.text-razimer4 p{
+    color: white;
+    font-size: 18px;
+    height: 20px;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 30px;
+}
+
+.qurilishrasmi1 {
+    width: 400px;
+    height: 200px;
+    transition: all 0.4s ease 0s;
+}
+
+.qurilishrasmi1 img {
+    width: 400px;
+    height: 200px;
+    transition: all 0.4s ease 0s;
+}
+
+.qurilishrasmi1 img:hover {
+    width: 450px;
+    height: 250px;
+    margin-top: -25px; 
+    visibility: visible;
+    margin-left: -25px;
+
+}
+
+.qurilishgaoid-text {
+    width: 400px;
+    height: 200px;
+}
+
+.qurilishgaoid-text:hover p{
+    color: #000000;
+}
+
+
+.qurilishgaoid-text:hover {
+transform: scale(1.06);
+}
+
+.qurilishgaoid-text {
+    width: 400px;
+    height: px;
+    position: absolute;
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    
+
+}
+
+.qurilishgaoid-text p {
+    height: 13px;
+    color: #6f6e6e;
+}
+
+
+.qurilishhaqida-text-quti {
+    margin-top: 270px;
+    width: 400px;
+    height: 235px;
+    background-color: #f67a37;
+}
+
+
+.qurilishhaqida-text-quti:hover {
+    background-color: #ff5f09;
+    transform: scale(1.05);
+    box-shadow: 0px 15px 25px rgb(8, 34, 46);
+
+}
+
+.qurilishhaqida-text-quti:hover p {
+    color: #262323;
+}
+
+
+
+
+.bitajoyga-box2 {
+    display: inline-block;
+    margin-left: 800px;
+    margin-top: 600px;
+    position: absolute;
+}
+
+
+.qurilishhaqida-text-quti2:hover {
+    background-color: #ff5f09;
+    transform: scale(1.05);
+    box-shadow: 0px 15px 25px rgb(8, 34, 46);
+
+}
+
+.qurilishhaqida-text-quti2:hover p {
+    color: #262323;
+}
+
+
+
+.text-razimer2 p {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.text-razimer3 p{
+    color: white;
+    font-size: 18px;
+    height: 20px;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 30px;
+}
+
+
+.qurilishrasmi2 img {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    margin-top: 310px;
+}
+
+.qurilishrasmi2 img:hover {
+    width: 450px;
+    height: 250px;
+    margin-top: 285px; 
+    visibility: visible;
+    margin-left: -25px;
+
+}
+
+.qurilishgaoid-text2 {
+    width: 400px;
+    height: px;
+    position: absolute;
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.qurilishgaoid-text2:hover p{
+    color: black;
+
+}
+
+.qurilishgaoid-text2:hover {
+    transform: scale(1.06);
+
+}
+
+
+.qurilishgaoid-text2 p {
+    height: 13px;
+    color: #6f6e6e;
+}
+
+.qurilishhaqida-text-quti2 {
+    width: 400px;
+    height: 235px;
+    background-color: #f67a37;
+}
+
+
+.text-kichikmalumot a {
+    text-decoration: none;
+    color: #535353;
+    border-bottom: 1px solid #535353;
+    padding-bottom: 2px;
+    margin-left: 3px;
+    font-size: 17px;
+}
+
+.text-kichikmalumot p:hover a{
+    transform: scale(1.07);
+    color: black;
+    border-bottom: 1px solid #fb5401;
+    padding-bottom: 2px;
+}
+
+.text-kichikmalumot p {
+    color: #535353;
+    margin-top: 1400px;
+    margin-left: 680px;
+    height: 60px;
+    font-size: 18px
+}
+
+.text-kichikmalumot p:hover {
+    transform: scale(1.07);
+    color: black;
+}
+
+.uchinchiqism {
+    width: 100%;
+    background-color: #E5E5E5;
+    height: 1225px;
+}
+
+
+.imges2 img {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    margin-left: 820px;
+    margin-top: 100px;
+}
+
+.imges2 img:hover {
+    transform: rotate(360deg);
+    transition: all 1s ease 0s;
+}
+
+.backgraundrangberish {
+    background-color: #f67a37;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-top: -215px;
+    margin-left: 555px;
+    transition: all 0.4s ease 0s;
+
+}
+
+
+
+.backgraundrangberish2 {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 450px;
+    margin-top: 190px;
+}
+
+
+.ishmanomazmuni-haqida {
+    position: absolute;
+    margin-top: -560px;
+    margin-left: 230px;
+}
+
+.ishmanomazmuni-haqida:hover h1 {
+    transform: scale(1.07);
+    color: rgb(35, 54, 163);
+}
+
+.ishmanomazmuni-haqida h1 {
+    font-size: 45px;
+    height: 60px;
+}
+
+.ishmanomazmuni-haqida:hover p {
+    transform: scale(1.07);
+    color: rgb(249, 156, 6);
+}
+
+
+.ishmanomazmuni-haqida p {
+    font-size: 23px;
+    height: 20px;
+    color: #535353;
+}
+
+
+.linkni-mamuni a {
+    text-decoration: none;
+    color: #535353;
+    border-bottom: 1px solid #535353;
+    padding-bottom: 2px;
+    margin-left: 3px
+}
+
+.ishmanomazmuni-haqida:hover a {
+    transform: scale(1.07);
+    color: rgb(233, 7, 7);
+    border-bottom: 1px solid #060606;
+
+}
+
+
+.ishmanomazmuni-haqida button {
+    margin-top: 40px;
+    margin-left: 0px;
+    font-size: 18px;
+}
+
+
+
+
+.tortinchiqism {
+    width: 100%;
+    background-color: black;
+    height: 970px;
+}
+
+
+.imges3 img {
+    width: 400px;
+    height: 780px;
+    margin-top: 90px;
+    margin-left: 230px;
+    transition: all 0.4s ease 0s;
+
+}
+
+.imges3 img:hover {
+    transform: translate(15px, 30px)
+}
+
+.ishmanomazmuni-haqida2 h1 {
+    font-size: 45px;
+    height: 320px;
+}
+
+
+.ishmanomazmuni-haqida2 p {
+    font-size: 20px;
+    height: 15px;
+}
+
+.ishmanomazmuni-haqida2:hover h1 {
+    transform: scale(1.07);
+    color: rgb(0, 187, 249);
+    transition: all 0.4s ease 0s;
+
+}
+
+
+.ishmanomazmuni-haqida2:hover p {
+    transform: scale(1.07);
+    color: rgb(147, 73, 171);
+    transition: all 0.4s ease 0s;
+
+}
+
+
+.ishmanomazmuni-haqida2:hover a {
+    transform: scale(1.07);
+    color: rgb(153, 243, 8);
+    border-bottom: 1px solid #ff002f;
+    transition: all 0.4s ease 0s;
+
+
+}
+
+
+
+.ishmanomazmuni-haqida2 button {
+    margin-top: 30px;
+    margin-left: 0px;
+    font-size: 18px;
+}
+
+.backgraund:hover {
+    background-color:#ac01fb;
+}
+
+.ishmanomazmuni-haqida2 {
+    position: absolute;
+    color: white;
+    margin-top: -750px;
+    margin-left: 740px;
+}
+
+
+.a-oqrang a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid #f67a37;
+    padding-bottom: 2px;
+    margin-left: 3px;
+    font-size: 17px;
+}
+
+
+.beshinchiqism {
+    width: 100%;
+    height: 440px;
+    background-color: black;
+}
+
+
+.beshinchiqism  img {
+    width: 1080px;
+    height: 600px;
+    border-radius: 20px;
+    margin-top: 97px;
+    margin-left: 200px;
+    position: absolute;
+}
+
+.beshinchiqism  img:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 15px 25px rgb(8, 34, 46);}
+
+.textuchun-quti {
+    width: 620px;
+    border-radius: 20px;
+    height: 610px;
+    background-color: #f67a37;
+    position: absolute;
+    margin-top: 580px;
+    margin-left: 725px;
+    transition: all 0.4s ease 0s;
+}
+
+.textuchun-quti:hover {
+    background-color: #ff5f09;
+    transform: scale(1.05);
+    box-shadow: 0px 15px 25px rgb(8, 34, 46);
+}
+
+.textuchun-quti img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 30px;
+    transition: all 0.8s ease 0s;
+
+}
+
+.imge12 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 30px;
+    transition: all 0.4s ease 0s;
+}
+
+
+
+.textuchun-quti:hover img{
+    transform: rotate(360deg);
+
+}
+
+.textuchun-quti p {
+    margin-top: 265px;
+    margin-left: 35px;
+    font-size: 20px;
+    color: white;
+    transition: all 0.4s ease 0s;
+
+}
+
+.textuchun-quti:hover p {
+    transform: scale(1.03);
+    transition: all 0.4s ease 0s;
+}
+
+.textuchun-quti h1 {
+    margin-left: 35px;
+    font-size: 45px;
+    color: white;
+}
+
+.text-razimer6 {
+    margin-top: 850px;
+    position: absolute;
+    margin-left: 200px;
+}
+
+
+.text-razimer6:hover a {
+    transform: scale(1.05);
+    transition: all 0.4s ease 0s;
+    color: #6a07f5;
+    border-bottom: 1px solid #f67a37;
+}
+
+.text-razimer6:hover p {
+    transform: scale(1.05);
+    transition: all 0.4s ease 0s;
+    color: #042649;
+}
+
+.text-razimer7 p {
+    font-size: 25px;
+    height: 7px;
+    font-weight: bold;
+}
+
+
+
+
+.text-razimer8 {
+    margin-top: 50px;
+}
+
+.text-razimer8 p{
+    font-size: 25px;
+    height: 7px;
+    color: #262323;
+}
+
+
+.styletext p {
+    font-size: 18px;
+    color: #9c877c;
+}
+
+
+.text-razimer8 button{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 0px;
+    
+}
+
+
+.rasmuchunbeckgraund {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #f67a37;
+    margin-top: 1110px;
+    margin-left: 300px;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+}
+
+
+.rasmuchunbeckgraund img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: all 0.4s ease 0s;
+}
+
+.rasmuchunbeckgraund:hover img {
+    transform: rotate(360deg);
+}
+
+.rasmuchun-joy {
+    display: inline-block;
+    position: absolute;
+    width: 650px;
+    height:650px;
+    border-radius: 50%;
+}
+
+.rasmuchun-joy img {
+    width: 650px;
+    height:650px;
+    border-radius: 50%;
+    margin-top: 1050px;
+    margin-left: 200px;
+    transition: all 0.4s ease 0s;
+}
+
+.rasmuchun-joy:hover img {
+    transform: rotate(360deg);
+}
+
+.textuchun-alohida__quti {
+    width: 570px;
+    height: 350px;
+    background-color: #f67a37;
+    border-radius: 50px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 270px;
+    transition: all 0.4s ease 0s;
+}
+
+.textuchun-alohida__quti:hover {
+    background-color: #ff5f09;
+    transform: scale(1.05);
+    box-shadow: 0px 15px 25px rgb(8, 34, 46);
+}
+
+.textuchun-alohida__quti:hover p{
+    color: rgb(0, 200, 255);
+}
+
+.quticha {
+    margin-top: 120px;
+    margin-left: 30px;
+}
+
+.quticha p {
+    font-size: 19px;
+    color: white;
+    height: 14px;
+}
+
+.tex-deceretion a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 2px;
+    margin-left: 3px;
+    font-size: 17px;
+}
+
+
+.beckgraund-imge img {
+    width: 100%;
+    height: 850px;
+    margin-top: 490px;
+}
+
+
+.sakizinchi-qism {
+    width: 100%;
+    height: 265px;
+    background-color: #333333;
+    margin-top: -0.5%;
+}
+
+
+
+
+.malumotuchun-qut {
+    position: absolute;
+    width: 520px;
+    height: 600px;
+    background-color: whitesmoke;
+    margin-top: -680px;
+    margin-left: 290px;
+    border-radius: 20px;
+    transition: all 0.7s ease 0s;
+}
+
+.malumotuchun-qut:hover {
+    background-color:rgb(171, 153, 153);
+    transform: scale(1.05);
+    box-shadow: 0px 15px 25px rgb(8, 34, 46);
+}
+
+.malumotuchun-qut:hover {
+    color: aqua;
+}
+
+.malumotuchun-qut:hover a{
+    color: rgb(0, 255, 110);
+}
+
+.malumotuchun-qut:hover h1{
+    color: aqua;
+}
+
+.soorovlar h1 {
+    color: #f67a37;
+    font-size: 35px;
+    margin-left: 60px;
+    position: absolute;
+    transition: all 0.15s ease 0s;
+}
+
+
+
+.soorovlar button:hover {
+    background: linear-gradient(to right, rgb(19, 69, 230) 0%, rgb(237, 35, 159)51%, rgb(19, 69, 230) 100%) ;
+    color: white;
+}
+
+.soorovlar button {
+    width: 400px;
+    height: 50px;
+    margin-left: 35px;
+    margin-top: 480px;
+    border-radius: 20px;
+    background: linear-gradient(to right, rgb(19, 69, 230) 0%, rgb(237, 35, 159)51%, rgb(19, 69, 230) 100%) ;
+    color: rgb(8, 7, 7);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.u-form-agree {
+    margin-top: 430px;
+    margin-left: 35px;
+    font-size: 18px;
+    position: absolute;
+}
+
+.u-form-agree a {
+    text-decoration: none;
+    color: rgb(233, 175, 112);
+    font-size: 18px;
+}
+
+
+.naeme {
+    position: absolute;
+    margin-top: -300px;
+}
+
+
+.naeme  label {
+    position: absolute;
+    margin-top: -35px;
+    font-size: 18px;
+
+}
+
+.naeme input:active {
+    border: none;
+}
+
+.naeme input {
+    position: absolute;
+    margin-top: -10px;
+    width: 450px;
+    border: none;
+    border-bottom: 2px solid #f48f58;
+    height: 40px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+
+.email label {
+    position: absolute;
+    margin-top: 0px;
+    font-size: 18px;
+
+}
+
+
+.email input {
+    position: absolute;
+    margin-top: 45px;
+    width: 450px;
+    border: none;
+    border-bottom: 2px solid #f48f58;
+    height: 40px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+
+.email {
+    position: absolute;
+    margin-top: -250px;
+}
+
+.masage {
+    position: absolute;
+    margin-top: -240px;
+}
+
+
+.masage textarea {
+    width: 450px;
+    height: 100px;
+    margin-top: 120px;
+    border: none;
+    border-bottom: 2px solid #f48f58;
+    margin-left: 10px;
+}
+
+
+.masage label {
+    margin-top: 90px;
+    position: absolute;
+    font-size: 18px;
+}
+
+
+
+.malumotuchun-qut2 {
+    position: absolute;
+    width: 445px;
+    height: 600px;
+    background-color: #f67a37;
+    margin-top: -680px;
+    margin-left: 810px;
+    border-radius: 20px;
+    transition: all 0.6s ease 0s;
+}
+
+.malumotuchun-qut2:hover {
+    background-color: #ff5f09;
+    transform: scale(1.05);
+    box-shadow: 0px 15px 25px rgb(8, 34, 46);
+}
+
+.malumotuchun-qut2:hover p{
+    color: aqua;
+}
+
+.tex-deceretion {
+    margin-top: 510px;
+    margin-left: 130px;
+    position: absolute;
+}
+
+.tex-deceretion p {
+    color: white;
+    font-size: 18px;
+}
+
+.tex-deceretion1 p {
+    color: white;
+    position: absolute;
+}
+
+.birhil-text {
+    font-size: 20px;
+    height: 30px;
+    font-weight: bold;
+}
+
+.aloqa {
+    margin-top: 50px;
+    margin-left: 140px;
+}
+
+.telefon {
+    margin-top: 95px;
+    margin-left: 170px;
+    height: 20px;
+}
+
+.telefon2 {
+    margin-top: 125px;
+    margin-left: 170px;
+}
+
+
+.birhil-text2 {
+    font-size: 17px;
+}
+
+.soz1 {
+    margin-top: 200px;
+    margin-left: 135px;
+}
+
+.vaqti {
+    margin-top: 250px;
+    margin-left: 125px;
+}
+
+.joyi {
+    margin-top: 280px;
+    margin-left: 125px;
+}
+
+.usluga {
+    margin-top: 360px;
+    margin-left: 90px;
+}
+
+.planirovni {
+    margin-top: 410px;
+    margin-left: 160px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ishjoyi {
+    margin-top: 440px;
+    margin-left: 180px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.proekt {
+    margin-top: 470px;
+    margin-left: 132px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+.ulanishlar {
+    margin-top: 30px;
+    position: absolute;
+    margin-left: 570px;
+}
+
+.ulanishlar:hover p {
+    color: #0f95e8;
+    transform: scale(1.05);
+}
+
+.ulanishlar p {
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    height: 8px;
+    transition: all 0.6s ease 0s;
+}
+
+
+
+.ulanishlar2 {
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 580px;
+    
+}
+
+.hover1:hover {
+    text-decoration: none;
+    color: #918f8f;
+}
+
+.hover2:hover {
+    color: #918f8f;
+    text-decoration: none;
+}
+
+.ulanishlar2 a {
+    color: rgb(196, 141, 121);
+}
+
+.ulanishlar2 p {
+    color: white;
+}
+
+.ulanishlar2:hover p {
+    color: rgb(4, 66, 239);
+}

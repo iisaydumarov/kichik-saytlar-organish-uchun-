@@ -1,0 +1,68 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.advanture {
+    width: 500px;
+    height: 300px;
+    background-color: #f42d59;
+}
+
+
+
+
+/*Blog section styles */
+.blog-items {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    display: inline-block;
+    width: 55%;
+}
+.blog-section__baner {
+    display: inline-block;
+}
+
+.blog-item {
+    overflow: hidden;
+    margin-right: 3%;
+    box-sizing: border-box;
+}
+
+.blog-item__image:hover {
+    box-shadow: 0px 10px 20px rgb(5 54 77 / 10%);
+}
+
+.blog-item .blog-item__info {
+    background-color: #CBE9BF;
+}
+
+.blog-item__title {
+    font-size: 30px;
+}
+
+.blog-item__image {
+    overflow: hidden;
+}
+
+.blog-item__image img {
+    width: 100%;
+    vertical-align: middle;
+    transition: all 0.4s ease 0s;
+}
+
+.blog-item__image:hover img {
+    transform: scale(1.1);
+    filter: brightness(0.5);
+}

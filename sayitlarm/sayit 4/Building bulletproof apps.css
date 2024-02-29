@@ -1,0 +1,401 @@
+body {  
+    height: auto;
+}
+
+.backgraund-qismi__img {
+    margin-left: -0.6%;
+}
+
+.backgraund-qismi__img img {
+    position: absolute;
+    width: 1520px;
+    height: 760px;
+    margin-top: -1.5%;
+}
+
+.birinchi-qismidagi__text {
+    margin-top: 280px;
+    margin-left: 710px;
+    position: absolute;
+    width: 700px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.birinchi-qismidagi__text h1 {
+    color: white;
+    font-size: 45px;
+    height: 50px;
+}
+
+.birinchi-qismidagi__text p {
+    color: white;
+    height: 10px;
+}
+
+.ikinchi-qismi {
+    background-color: #835FA8;
+    height: 430px;
+    width: 1520px;
+    margin-left: -0.6%;
+    margin-top: 735px;
+    position: absolute;
+}
+
+.ikinchi-qismidagi__text {
+    color: white;
+    margin-top: 160px;
+    margin-left: 210px;
+}
+
+.ikinchi-qismidagi__text h1 {
+    font-size: 36px;
+}
+
+.ikinchi-qismidagi__text p {
+    height: 10px;
+    font-size: 18px;
+}
+
+.ikinchi-qismidagi__text button {
+    margin-top: 20px;
+    width: 125px;
+    height: 45px;
+    background-color: #3DD2AE;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+
+.ikinchi-qismidagi__text button:hover {
+    background-color: #05f130;
+}
+
+.ikinchi-qismidagi__img img {
+    width: 570px;
+    height: 507px;
+    margin-left: 760px;
+    margin-top: -423px;
+}
+
+.uchinchi-qism {
+    height: 500px;
+    width: 1520px;
+    margin-left: -0.6%;
+    margin-top: 1160px;
+    background-color: #F4F5F7;
+    position: absolute;
+}
+
+.uchinchi-qismdagi__text {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 210px;
+}
+
+.uchinchi-qismdagi__text h1 {
+    font-size: 26.5px;
+    font-weight: 200;
+    color: #262424;
+}
+
+.uchinchi-qismdagi__text h2 {
+    font-size: 24.5px;
+    font-weight: 200;
+    height: 7px;
+    color: #2b2929;
+}
+
+.uchinchi-qismdagi__text_p {
+    margin-top: 45px;
+}
+
+.uchinchi-qismdagi__text_p p {
+    height: 10px;
+    font-size: 18.5px;
+    font-weight: lighter;
+    color: #3e3a3a;
+}
+
+.uchinchi-qismdagi__text button {
+    margin-top: 20px;
+    width: 125px;
+    height: 45px;
+    background-color: #3DD2AE;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+
+.uchinchi-qismdagi__text button:hover {
+    background-color: #05f130;
+}
+
+.uchinchi-qismdagi__textsurish1 {
+    margin-left: 590px;
+}
+
+.uchinchi-qismdagi__textsurish2 {
+    margin-left: 970px;
+}
+
+.tortinchi-qism {
+    height: 500px;
+    width: 1520px;
+    margin-left: -0.6%;
+    margin-top: 1660px;
+    background-color: #232831;
+    position: absolute;
+    color: white;
+}
+
+.tortinchi-qismdagi__text {
+    text-align: center;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 380px;
+}
+
+.tortinchi-qismdagi__text h1 {
+    font-weight: 100;
+    font-size: 40px;
+    height: 40px;
+}
+
+.tortinchi-qismdagi__text p {
+    font-size: 18px;
+    height: 8px;
+}
+
+.tortinchi-qismdagi__img img {
+    position: absolute;
+    margin-top: 222px;
+    margin-left: 303px;
+    width: 913px;
+    height: 278px;
+
+}
+
+.beshinchi-qism {
+    height: 500px;
+    width: 1520px;
+    margin-left: -0.6%;
+    margin-top: 2160px;
+    background-color: #2B303B;
+    position: absolute;
+    color: white;
+}
+
+.beshinchi-qismdagi__text {
+    position: absolute;
+    margin-top: 195px;
+    margin-left: 210px;
+}
+
+.beshinchi-qismdagi__text i {
+    margin-top: -60px;
+}
+
+.beshinchi-qismdagi__text p {
+    color: #9CA3AC;
+    font-size: 18.5px;
+    height: 8px;
+}
+
+.beshinchi-qismdagi__text h2 {
+    font-size: 22px;
+}
+
+.beshinchi-qismdagi__text__1 {
+    margin-left: 495px;
+}
+
+.beshinchi-qismdagi__text__2 {
+    margin-left: 780px;
+}
+
+.beshinchi-qismdagi__text__3 {
+    margin-left: 1065px;
+}
+
+.material-icons {
+    animation: material-iconsAnim 2.2s ease-in-out infinite alternate;
+}
+
+@keyframes material-iconsAnim {
+    0% {
+        transform: rotate(10deg) translateY(10px);
+        color: #a505ef;
+    }
+    25% {
+        transform: rotate(0deg) translateY(0px);
+        color: #ffb300;
+    }
+    50% {
+        transform: rotate(0deg) translateY(0px);
+        color: #0585fc;
+    }
+    100% {
+        transform: rotate(40deg) translateY(-35px);
+        color: #3DD2AE;
+    }
+}
+
+.oltinchi-qism {
+    position: absolute;
+    margin-top: 3000px;
+}
+
+.oltinchi-qismdagi__text1 {
+    height: 500px;
+    width: 760px;
+    margin-left: -1%;
+    margin-top: -340px;
+    background-color: #F6F6F6;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    z-index: 2;
+}
+
+.oltinchi-qismdagi__img1 img {
+    height: 500px;
+    width: 765px;
+    margin-left: 745px;
+    margin-top: -340px;
+}
+
+.olt-text2 img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.olt-text2 {
+    height: 500px;
+    width: 765px;   
+}
+
+
+.imgs-top2 {
+    margin-top: 335px;
+    position: absolute;
+    margin-left: -755px;
+}
+
+.imgs-top3 {
+    margin-top: 835px;
+    position: absolute;
+}
+
+.olt-text2 {
+    width: 765px;
+    z-index: 2;
+    margin-top: -5px;
+    margin-left: 745px;
+    color: white;
+    background-color: #835FA8;
+}
+
+.olt-text3 {
+    margin-top: 495px;
+}
+
+.textni-surish1 {
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 138px;
+
+}
+
+.textni-surish1 h1 {
+    font-size: 38px;
+    font-weight: 200;
+}
+
+.textni-surish1 p {
+    font-size: 20px;
+    margin-top: 7px;
+}
+
+.oltinchi-qism_p p {
+    font-size: 18px;
+    color: rgb(68, 64, 64);
+    height: 5px;
+}
+
+.textni-surish2 {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 80px;
+
+}
+
+.textni-surish2 h1 {
+    font-size: 20px;
+}
+
+.textni-surish2 p {
+    margin-top: 20px;
+    font-size: 27px;
+    height: 3px;
+}
+
+.textni-surish2 img {
+    margin-top: 30px;
+}
+
+.yetinchi-qismdagi__img img {
+    position: absolute;
+    margin-top: 4158px;
+    height: 631px;
+    width: 1520px;
+    margin-left: -0.6%;
+    z-index: -1;
+}
+
+.yetinchi-qismdagi__text {
+    z-index: 4;
+    position: absolute;
+    width: 561px;
+    height: 310px;
+    color: white;
+    margin-top: 4159px;
+    margin-left: 184px;
+    background-color: #835FA8;
+}
+
+.yetinchi-qismdagi__text p {
+    font-size: 40px;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.sakizinchi-qism {
+    margin-top: 4789px;
+    height: 98px;
+    width: 1520px;
+    background-color: #333333;
+    margin-left: -0.6%;
+    position: absolute;
+}
+
+.sakizinchi-qismdagi__text {
+    text-align: center;
+    margin-top: 24px;
+    font-size: 15px;
+}
+
+.sakizinchi-qismdagi__text a {
+    color: #9CA3AC;
+}
+
+.sakizinchi-qismdagi__text a:hover {
+    text-decoration: none;
+}
+
+.sakizinchi-qismdagi__text p {
+    color: white;
+}
+
+

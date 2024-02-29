@@ -1,0 +1,594 @@
+body {
+    height: auto;
+    width: auto;
+}
+
+
+
+
+
+.yuza-rasmi {
+    width: 1510px;
+}
+
+.yuza-rasmi img {
+    width: 1520px;
+    margin-left: -0.5%;
+    height: 640px;
+    z-index: -1;
+    filter: brightness(0.3);
+}
+
+.baner-info4 {
+    position: absolute;
+    top: 70px;
+    left: 330px;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+    cursor: pointer ;
+}
+
+.baner-info {
+    position: absolute;
+    top: 280px;
+    left: 485px;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+}
+
+
+.baner-info2 {
+    position: absolute;
+    top: 330px;
+    left: 480px;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 55px;
+}
+
+
+.baner-info3 {
+    position: absolute;
+    top: 400px;
+    left: 560px;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 55px;
+}
+
+.koring {
+    position: absolute;
+    width: 210px;
+    height: 290px;
+    background-color: white;
+    display: inline-block;
+    margin-top: -90px;
+    margin-left: 302px;
+    box-shadow: 0px 1px 1px 0px rgba(108, 100, 133, 0.808);
+    z-index: 2;
+}
+
+.koring p {
+    color: #575d74;
+}
+
+.material-icons {
+    background-color: #ff214f;
+    color: white;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+}
+
+.koring1 i {
+    margin-top: 25px;
+}
+
+.koring2 {
+    margin-left: 540px;
+}
+
+.koring2 i {
+    margin-top: 25px;
+}
+
+.koring3 {
+    margin-left: 780px;
+}
+
+.koring3 i {
+    margin-top: 25px;
+}
+
+.koring4 {
+    margin-left: 1020px;
+}
+
+.koring4 i {
+    margin-top: 25px;
+    transition: all 0.4s ease 0s;
+}
+
+.koring  {
+    text-align: center;
+    vertical-align: middle;
+    transition: all 0.4s ease 0s;
+    border-radius: 10px;
+}
+
+.koring:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 15px 25px rgb(5 54 77 / 15%);
+    margin-top: -120px;
+
+}
+
+
+.koring:hover .material-icons{
+    background-color: #4c61b6;
+    color: #ff214f;
+}
+
+.koring:hover i{
+    color: #c00cc3;
+}
+
+
+.kompuyuter-rasm {
+    width: 101%;
+    background-color: #f0eeef;
+    margin-left: -0.5%;
+    margin-top: 300px;
+}
+
+.kompuyuter-rasm img {
+    width: 750px;
+    display: inline-block;
+}
+
+.joytashlash {
+    height: 35px;
+}
+
+
+.loremipsun1 {
+    background-color: #f2f2f2;
+    width: 443px;
+    height: 280px;
+    display: inline-block;
+    margin-top: 65px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.loremipsun1 p, h3 {
+    margin-left: 20px;
+    margin-top: px;
+}
+
+.loremipsun1 p {
+    font-size: 15px;
+}
+
+.loremipsun1red {
+    color: red;
+}
+
+.loremipsun1 h3 {
+    font-size: 20px;
+    height: 40px;
+}
+
+.heading p {
+    height: 10px;
+}
+
+
+.joytashlash2 {
+    height: 50px;
+}
+
+
+.loremipsun2 {
+    background-color: #f2f2f2;
+    width: 215px;
+    height: 200px;
+    display: inline-block;
+    margin-top: 360px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.loremipsun2 p, h4 {
+    margin-left: 20px;
+}
+
+.loremipsun2 p {
+    font-size: 13px;
+}
+
+.loremipsun1red2 {
+    color: red;
+}
+
+.loremipsun2 h4 {
+    font-size: 15px;
+    height: 20px;
+}
+
+.heading2 p {
+    height: 10px;
+}
+
+.magna-letsurish {
+    margin-left: 250px;
+}
+
+.rasm1 img {
+    width: 380px;
+    height: 280px;
+    margin-left: -0.5%;
+    margin-top: -0.2%;
+}
+
+.rasm1 {
+    display: inline-block;
+}
+
+.ichkariga-surish {
+    margin-left: 380px;
+    display: inline-block;
+}
+
+.tortinchi-qism {
+    width: 101%;
+    background-color: #1a1a1a;
+    margin-left: -0.5%;
+    margin-top: -0.2%;
+    height: 280px;
+}
+
+.tortinchi-qism p {
+    height: 9px;
+}
+
+.soznisurish {
+    display: inline-block;
+}
+
+.lorem-sozlar {
+    display: inline-block;
+    width: auto;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.lorem-sozlar h4, h3 {
+    margin-left: -1px;
+}
+
+.lorem-sozlar h4 {
+    color: #ff214f;
+}
+
+.lorem-sozlar h3 {
+    color: white;
+}
+
+
+.lorem-sozlar p {
+    font-size: 13px;
+    color: #627e7a;
+}
+
+.manolisoz h4 {
+    color: #ff214f;
+}
+
+.manolisoz h2 {
+    font-size: 20px;
+}
+
+
+.manolisoz {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.rasmlarqism {
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+.rasmlarqism img {
+    width: 210px;
+    vertical-align: middle;
+    transition: all 0.4s ease 0s;
+}
+
+
+.rasmnisurish1 {
+    margin-left: 20px;
+}
+
+
+.rasmlarqism img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgb(5 54 77 / 10%);
+
+}
+
+
+.rasmnitepagasurish {
+    margin-top: 15px;
+}
+
+.Values , img, ol {
+    display: inline-block;
+}
+
+.why {
+    display: inline-block;
+    margin-top: 150px;
+    position: absolute;
+    margin-left: 285px;
+}
+
+.why h3 {
+    margin-left: 20px;
+    margin-top: -5px;
+}
+
+.Values ol {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 286px;
+}
+
+ol li {
+    height: 25px;
+    font-size: 14px;
+}
+
+
+.Values img {
+    position: absolute;
+    width: 520px;
+    margin-left: 720px;
+    margin-top: 100px;
+}
+
+
+.oltinchiqism {
+    background-color: #efedee;
+    margin-top: 530px;
+    height: 585px;
+    width: 101%;
+    margin-left: -0.5%;
+}
+
+
+.stulrasmi img {
+    height: 585px;
+    margin-left: 48.5%;
+    margin-top: -154.5px;
+}
+
+
+.awesome {
+    display: inline-block;
+    margin-left: 310px;
+    margin-top: 30px;
+} 
+
+.awesome  h3 {
+    margin-left: 20px;
+    font-size: 20px;
+} 
+
+.coloorred {
+    color: #ff214f;
+} 
+
+
+.loremipsun5 {
+    display: inline-block;
+    margin-left: -10px;
+
+}
+
+
+.loremipsun5 {
+    width: 200px;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.loremipsun5 h4 {
+    font-size: 15px
+}
+
+.loremipsun5 p {
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+.magna-letsurish2 {
+    margin-top: 230px;
+}
+
+.magna-left2 {
+    margin-left: 230px;
+}
+
+
+.yuzaqismirasmi {
+    width: auto;
+}
+
+.yuzaqismirasmi img {
+    width: 101.5%;
+    margin-left: -0.6%;
+    height: 460px;
+    z-index: -1;
+}
+
+
+.rasmniichidagitext {
+    z-index: 5;
+    text-align: center;
+    margin-top: -300px;
+    width: 300px;
+    height: 550px;
+}
+
+.rasmniichidagitext h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.rasmniichidagitext h4 {
+    color: red;
+    margin-top: 60px;
+}
+
+.div1 {
+    width: 645px;
+    height: 310px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    z-index: 2;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 435px;
+}
+  
+
+.backgraundblec {
+    width: 101.5%;
+    height: 535px;
+    margin-left: -0.6%;
+    margin-top: -277px;
+    background-color: black;
+}
+
+
+.boshjoytashlash {
+    height: 190px;
+}
+
+.box-quti1 {
+    color: white;
+    margin-left: 350px;
+    display: inline-block;
+}
+
+.box-quti1 h4 {
+    margin-left: -2px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    height: 5px;
+}
+
+
+.box-quti1 a {
+    text-decoration: none;
+    color: #c89a9f;
+}
+
+.box-quti1 a:hover {
+    color:#627e7a;
+}
+
+.xarita iframe{
+    width: 450px;
+    height: 390px;
+    margin-left: 410px;
+    position: absolute;
+    margin-top: -280px;
+}
+
+.backgraundkulrang {
+    background-color: #333333;
+    width: 101.5%;
+    height: 280px;
+    margin-top: -25px;
+    margin-left: -0.6%;
+    margin-bottom: -10px;
+}
+
+.pastkiqismi {
+    margin-top: 170px;
+    font-size: 15px;
+    margin-left: 200px;
+}
+
+.pastkiqismi p {
+    color: #F2F2F2;
+}    
+
+.pastkiqismi a {
+    color: #c89a9f;
+}  
+
+.boshjoytashlash2 {
+    height: 50px;
+}
+
+.box-quti2 {
+    color: white;
+    margin-left: 400px;
+}
+
+.box-quti2 h4 {
+    font-size: 20px;
+}
+
+.box-quti2 p {
+    font-size: 18px;
+}
+
+.margin {
+    display: inline-block;
+    position: absolute;
+    margin-left: -90px;
+}
+
+.margin2 {
+    display: inline-block;
+    position: absolute;
+    margin-left: 300px;
+    
+}
+
+.margin3 {
+    display: inline-block;
+    position: absolute;
+    margin-left: 700px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
